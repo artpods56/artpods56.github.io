@@ -16,7 +16,6 @@
 *.dvi
 *.ps
 *.eps
-*.pdf
 
 # XeLaTeX specific
 *.xdv
