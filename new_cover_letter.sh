@@ -27,10 +27,10 @@ mkdir "$DIR_NAME"
 
 # Copy necessary files
 cp "coverletter/cover_${LANGUAGE}.cls" "$DIR_NAME/"
-cp "coverletter/template_${LANGUAGE}.tex" "$DIR_NAME/cover_letter.tex"
+cp "coverletter/template_${LANGUAGE}.tex" "$DIR_NAME/cover_letter_$COMPANY_NAME.tex"
 cp "coverletter/signature.png" "$DIR_NAME/"
 cp -r "coverletter/OpenFonts" "$DIR_NAME/"
 
 echo "Cover letter template created in: $DIR_NAME"
-echo "Edit $DIR_NAME/cover_letter.tex to customize for $COMPANY_NAME"
-echo "Compile with: cd $DIR_NAME && lualatex cover_letter.tex"
+echo "Edit $DIR_NAME/cover_letter_$COMPANY_NAME.tex to customize for $COMPANY_NAME"
+echo "Compile with: cd $DIR_NAME && lualatex cover_letter_$COMPANY_NAME.tex"
