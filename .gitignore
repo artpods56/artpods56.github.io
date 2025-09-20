@@ -37,3 +37,6 @@ Thumbs.db
 # Other common artifacts
 *.backup
 *.old
+
+# Applications directory
+/applications/

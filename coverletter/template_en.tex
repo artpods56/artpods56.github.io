@@ -1,0 +1,64 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Cover Letter Template with Variables
+% LaTeX Template
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[]{cover_en}
+\usepackage{fancyhdr}
+ 
+\pagestyle{fancy}
+\fancyhf{}
+ 
+\rfoot{Page \thepage \hspace{1pt}}
+\thispagestyle{empty}
+\renewcommand{\headrulewidth}{0pt}
+
+% VARIABLES TO CUSTOMIZE FOR EACH APPLICATION
+\newcommand{\targetcompany}{[COMPANY NAME]}
+\newcommand{\targetaddress}{[COMPANY ADDRESS] \\ [STREET] \\ [CITY, POSTAL CODE] \\ [COUNTRY]}
+\newcommand{\targetposition}{[POSITION TITLE]}
+\newcommand{\targetperson}{[Dear Hiring Manager / Dear Mr./Ms. [NAME]]}
+\newcommand{\wherelearned}{[Where you found the position - website, LinkedIn, etc.]}
+
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     TITLE NAME
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\namesection{Artur}{Podsiadły}{ \urlstyle{same}\href{https://artpods56.github.io}{artpods56.github.io} | \href{mailto:artpods56@gmail.com}{artpods56@gmail.com} | 530670682 | \urlstyle{same}\href{https://github.com/artpods56/}{Github} | \urlstyle{same}\href{https://www.linkedin.com/in/artpods56/}{Linkedin}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     MAIN COVER LETTER CONTENT
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\hfill
+
+\begin{minipage}[t]{0.5\textwidth} 
+\companyname{\targetcompany}
+\companyaddress{\targetaddress}
+\end{minipage}
+\begin{minipage}[t]{0.49\textwidth} 
+\currentdate{\today}
+\end{minipage}
+
+\lettercontent{\targetperson}
+
+\lettercontent{I am writing to express my strong interest in the \targetposition{} position at \targetcompany{}, which I discovered through \wherelearned{}. With my background in [YOUR FIELD], I am excited about the opportunity to contribute to your team.}
+
+\lettercontent{[PARAGRAPH 2: Highlight your most relevant qualifications and achievements that match the job requirements. Be specific about your skills and experience.]}
+
+\lettercontent{[PARAGRAPH 3: Show knowledge of the company and explain why you want to work there specifically. Mention how you can contribute to their goals.]}
+
+\lettercontent{[PARAGRAPH 4: Closing paragraph expressing enthusiasm and next steps. Mention that you've attached your resume.]}
+
+\vspace{0.5cm}
+
+\closing{Sincerely,\\ \vspace{.1cm} \includegraphics[width=4cm]{signature} \vspace{-1cm} }
+
+\signature{Artur Podsiadły}
+
+\end{document}
