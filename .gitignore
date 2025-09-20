@@ -1,107 +1,39 @@
-# LaTeX compilation artifacts
+# LaTeX build artifacts
 *.aux
-*.bbl
-*.bcf
-*.blg
 *.fdb_latexmk
 *.fls
 *.log
 *.out
-*.run.xml
 *.synctex.gz
 *.toc
+*.bbl
+*.blg
 *.nav
 *.snm
 *.vrb
-*.dvi
-*.ps
-*.eps
+*.run.xml
+*.bcf
 
-# XeLaTeX specific
-*.xdv
-
-# BibTeX
-*.bib.bak
-*.bib.sav
-
-# Glossaries
-*.acn
-*.acr
-*.glg
-*.glo
-*.gls
-*.glsdefs
-*.lzo
-*.lzs
-
-# Hyperref
-*.figlist
-*.makefile
-*.xwm
-
-# Listings
-*.lol
-
-# Makeindex
-*.idx
-*.ilg
-*.ind
-
-# Minitoc
-*.maf
-*.mlf
-*.mlt
-*.mtc[0-9]*
-*.slf[0-9]*
-*.slt[0-9]*
-*.stc[0-9]*
-
-# Minted
-_minted*
-*.pyg
-
-# Nomencl
-*.nlg
-*.nlo
-*.nls
-
-# Sagetex
-*.sagetex.sage
-*.sagetex.py
-*.sagetex.scmd
-
-# SyncTeX
-*.synctex
-*.synctex(busy)
-*.synctex.gz(busy)
-
-# TikZ & PGF
-*.makefile
-*.figlist
-*.fls
-*.fdb_latexmk
-
-# Todonotes
-*.tdo
-
-# Xindy
-*.xdy
-
-# WinEdt
-*.bak
-*.sav
-
-# Latexmk
-*.latexmk
-
-# MacOS
+# macOS system files
 .DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
 
-# Editor backups
-*~
+# Editor files
 *.swp
 *.swo
-
-# IDE files
+*~
 .vscode/
 .idea/
+
+# Temporary files
+*.tmp
+*.temp
+
+# Other common artifacts
+*.backup
+*.old

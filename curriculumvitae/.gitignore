@@ -1,0 +1,107 @@
+# LaTeX compilation artifacts
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.run.xml
+*.synctex.gz
+*.toc
+*.nav
+*.snm
+*.vrb
+*.dvi
+*.ps
+*.eps
+
+# XeLaTeX specific
+*.xdv
+
+# BibTeX
+*.bib.bak
+*.bib.sav
+
+# Glossaries
+*.acn
+*.acr
+*.glg
+*.glo
+*.gls
+*.glsdefs
+*.lzo
+*.lzs
+
+# Hyperref
+*.figlist
+*.makefile
+*.xwm
+
+# Listings
+*.lol
+
+# Makeindex
+*.idx
+*.ilg
+*.ind
+
+# Minitoc
+*.maf
+*.mlf
+*.mlt
+*.mtc[0-9]*
+*.slf[0-9]*
+*.slt[0-9]*
+*.stc[0-9]*
+
+# Minted
+_minted*
+*.pyg
+
+# Nomencl
+*.nlg
+*.nlo
+*.nls
+
+# Sagetex
+*.sagetex.sage
+*.sagetex.py
+*.sagetex.scmd
+
+# SyncTeX
+*.synctex
+*.synctex(busy)
+*.synctex.gz(busy)
+
+# TikZ & PGF
+*.makefile
+*.figlist
+*.fls
+*.fdb_latexmk
+
+# Todonotes
+*.tdo
+
+# Xindy
+*.xdy
+
+# WinEdt
+*.bak
+*.sav
+
+# Latexmk
+*.latexmk
+
+# MacOS
+.DS_Store
+
+# Editor backups
+*~
+*.swp
+*.swo
+
+# IDE files
+.vscode/
+.idea/
