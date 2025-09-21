@@ -1,0 +1,199 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Deedy - One Page Two Column Resume
+% LaTeX Template
+% Version 1.2 (16/9/2014)
+%  
+% Original author:
+% Debarghya Das (http://debarghyadas.com)
+%
+% Original repository:
+% https://github.com/deedydas/Deedy-Resume
+%
+% IMPORTANT: THIS TEMPLATE NEEDS TO BE COMPILED WITH XeLaTeX
+%
+% This template uses several fonts not included with Windows/Linux by
+% default. If you get compilation errors saying a font is missing, find the line
+% on which the font is used and either change it to a font included with your
+% operating system or comment the line out to use the default font.
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[]{deedy-resume-openfont}
+\usepackage{fancyhdr}
+\usepackage{tikzpagenodes}
+\usepackage[document]{ragged2e}
+
+
+
+
+
+\pagestyle{fancy}
+\fancyhf{}
+
+\begin{document}
+
+\begin{tikzpicture}[remember picture,overlay,shift={(current page.north west)}]
+\node[anchor=north west,xshift=1.75cm,yshift=-0.25cm]{\includegraphics[width=2.5cm]{apods_img.jpg}};
+\end{tikzpicture}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     LAST UPDATED DATE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\lastupdated
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     TITLE NAME
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\namesection{Artur}{Podsiadły}{
+    \href{mailto:artpods56@gmail.com}{\faEnvelopeO\ artpods56@gmail.com}\hspace{0,25cm} 
+    \href{https://www.linkedin.com/in/artpods56/}{\faLinkedin\ linkedin.com/in/artpods56} \\
+    \href{https://github.com/artpods56}{\faGithub\ github.com/artpods56} \hspace{0,25cm} 
+    \faMobile{ +48 530-670-682} 
+    \vspace{0.2cm}
+}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN ONE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{minipage}[t]{0.4\textwidth} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     OBJECTIVE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{O MNIE}
+{Pasjonuje się szeroko pojętą sztuczną inteligencją, z silnym naciskiem na MLOps/LLMOps i systemy RAG. Specjalizuję się w projektowaniu i wdrażaniu kompleksowych potoków ML, automatyzacji procesów wdrażania oraz integracji rozwiązań LLM w środowiskach produkcyjnych.}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     CERTIFICATIONS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Certyfikaty}
+\textbf{Świadectwo kwalifikacji EE.09} \\
+Programowanie, tworzenie i administrowanie stronami internetowymi i bazami danych. \\
+
+\textbf{Świadectwo kwalifikacji EE.08} \\
+Montaż i eksploatacja systemów komputerowych, urządzeń peryferyjnych i sieci. \\
+
+\textbf{Cisco Networking Academy - IT Essentials} \\
+Certyfikat potwierdzający teoretyczne i praktyczne umiejętności zawodowe. \\
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     COURSEWORK
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Wybrane kursy}
+\subsection{Studia licencjackie}
+Podstawy uczenia maszynowego \\
+Głębokie sieci neuronowe w przetwarzaniu danych
+Przetwarzanie języka naturalnego \\
+Głębokie sieci neuronowe w wizji komputerowej
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     SKILLS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Umiejętności}
+\subsection{Development}
+Python (SOLID, Clean Code, TDD) \textbullet{} FastAPI \textbullet{} Django \textbullet{} Git \textbullet{} PostgreSQL
+\sectionsep
+
+\subsection{Data i AI}
+HuggingFace Transformers | Models | Datasets \textbullet{} PyTorch \textbullet{} MCP \textbullet{} Semantic Kernel \textbullet{} LangGraph \textbullet{} RAG \textbullet{}  Vision LLMs \textbullet{} DSPy
+\sectionsep
+
+\subsection{Ops i Usługi}
+Docker \textbullet{} llama.cpp \textbullet{} Dagster \textbullet{} Label Studio \textbullet{} MinIO \textbullet{} Weights\&Biases \textbullet{} OpenRouter \textbullet{} Hydra
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     PROJECTS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Projekty}
+\runsubsection{\href{https://github.com/mereolog/ml-playground}{ML Playground}}
+\descript{Interaktywna platforma do uczenia maszynowego}
+\location{Python | Pydantic | Django | FastAPI | Docker}
+
+\sectionsep
+\runsubsection{\href{https://github.com/artpods56/AlphaBetaLogic}{AlphaBetaLogic}}
+\descript{Biblioteka Pythona do parsowania i analizowania wyrażeń logiki pierwszego rzędu}
+\location{Python | PLY (Python Lex-Yacc) | NetworkX}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     COLUMN TWO
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{minipage} 
+\hfill
+\begin{minipage}[t]{0.55\textwidth} 
+
+\section{Edukacja} 
+\subsection{Katolicki Uniwersytet Lubelski}
+\subsection{Jana Pawła II}
+\descript{Licencjat ze Sztucznej Inteligencji \\ Praca dyplomowa: "Ewolucja systemów RAG (Retrieval-Augmented Generation)"}
+\location{Paź 2022 | Cze 2025 | Ukończono}
+\sectionsep 
+
+\subsection{Zespół Szkół Energetycznych im. prof. Kazimierza Drewnowskiego w Lublinie}
+\descript{Specjalizacja Technik Informatyk}
+\location{2017 | 2021}
+\sectionsep
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EXPERIENCE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Doświadczenie}
+
+\runsubsection{Ośrodek Badań nad Geografią Historyczną Kościoła w Polsce} \\
+\descript{Architekt Rozwiązań | Inżynier MLOps/LLMOps}
+\location{Marzec 2025 - Sierpień 2025 | Lublin}
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{tightemize}
+\item Zaprojektowałem i zbudowałem kompleksowe potoki ML do automatycznej ekstrakcji informacji z historycznych schematyzmów przy użyciu LayoutLMv3 i wizyjnych LLM.
+\item System osiągnął ponad 90\% dokładności w ekstrakcji danych strukturalnych ze złożonych układów dokumentów i jest przygotowywany do wdrożenia produkcyjnego.
+\item Skonfigurowałem gotową do produkcji platformę do adnotacji z użyciem Dockera, Label Studio i MinIO, stosując najlepsze praktyki MLOps, w tym wersjonowanie modeli i śledzenie eksperymentów.
+\end{tightemize}
+\sectionsep
+
+\runsubsection{TEDxLublin} \\
+\descript{IT / Projektowanie i Rozwój Stron Internetowych}
+\location{Marzec 2024 - Obecnie | Lublin}
+
+\begin{tightemize}
+\item Zaprojektowałem i wdrożyłem oficjalną stronę internetową TEDxLublin która pozwala zarządzać wydarzeniami.
+\item Zautomatyzowałem formularze wolontariuszy, prelegentów i partnerów, a także subskrypcję newslettera.
+\item Zintegrowałem Umami do prywatnej analityki internetowej, zapewniając zgodność z RODO.
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Katolicki Uniwersytet Lubelski Jana Pawła II} \\
+\descript{Badania i Rozwój AI / Rozwój Oprogramowania}
+\location{Wrzesień 2022 - Luty 2023 | Lublin}
+\begin{tightemize}
+\item Prowadziłem badania i rozwój w zakresie technik przetwarzania języka naturalnego oraz architektury RAG na potrzeby rozwoju asystenta/chatbota AI w środowisku akademickim.
+\item Analizowałem i oceniałem skuteczność różnych modeli i podejść AI w kontekście zadań QA.
+\end{tightemize}
+\sectionsep
+
+\end{minipage} 
+
+\vfill % This ensures the clause is pushed to the bottom of the document if there's space
+\begin{center}
+    \scriptsize % Makes the font smaller
+    Wyrażam zgodę na przetwarzanie moich danych osobowych zawartych w moim CV, zgodnie z RODO (UE) 2016/679, art. 6 ust. 1 lit. a.
+\end{center}
+
+\end{document}
