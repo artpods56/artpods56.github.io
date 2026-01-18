@@ -32,9 +32,6 @@
 
 \begin{document}
 
-\begin{tikzpicture}[remember picture,overlay,shift={(current page.north west)}]
-\node[anchor=north west,xshift=1.75cm,yshift=-0.25cm]{\includegraphics[width=2.5cm]{apods_img.jpg}};
-\end{tikzpicture}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
 %     LAST UPDATED DATE
@@ -52,7 +49,6 @@
     \href{https://www.linkedin.com/in/artpods56/}{\faLinkedin\ linkedin.com/in/artpods56} \\
     \href{https://github.com/artpods56}{\faGithub\ github.com/artpods56} \hspace{0,25cm} 
     \faMobile{ +48 530-670-682} 
-    \vspace{0.2cm}
 }
 
 
@@ -66,36 +62,51 @@
 \begin{minipage}[t]{0.4\textwidth} 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%     OBJECTIVE
+%     PROFESSIONAL SUMMARY
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\section{OBJECTIVE}
-{Passionate about artificial intelligence with a strong focus on MLOps/LLMOps and RAG systems. Specialized in designing and implementing end-to-end ML pipelines, automating deployment processes, and integrating LLM solutions in production environments. Experienced in building intelligent systems that bridge the gap between research and real-world applications.}
+\section{About Me}
+\subsection{Machine Learning Engineer}
+Bridging the gap between research and robust software engineering.
+Specialized in building end-to-end production systems with a focus on scalability, clean code, and MLOps automation in the fields of LLMs and Deep Learning (Computer Vision \& Document AI).
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     BEYOND CODE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Beyond Code}
+Outside of work, I enjoy thrifting and collecting vintage clothing.
+I also play RPG games and practice table tennis regularly.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     LANGUAGES
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Languages}
+Polish (Native) \textbullet{} English (B2+)
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     CERTIFICATIONS
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\section{Certifications}
-\textbf{Technical certificate EE.09} \\
-% Programming, development and administration of websites and databases. \\
-
-\textbf{Technical certificate EE.08} \\
-% Installation and operation of computer systems, equipment peripherals and networks. \\
-
-\textbf{Cisco Networking Academy - IT Essentials} \\
-% Certificate for theoretical and practical professional skills. \\
-
+%\section{Certifications}
+%\textbf{Technical certificate EE.09} \\
+%
+%\textbf{Technical certificate EE.08} \\
+%
+%\textbf{Cisco Networking Academy - IT Essentials} \\
+%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     COURSEWORK
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\section{Coursework}
-\subsection{Graduate}
-Fundamentals of Machine Learning \\
-Deep Neural Networks in Data Processing
-Natural Language Processing \\
-Deep Neural Networks in Computer Vision
+%
+%\section{Coursework}
+%\subsection{Graduate}
+%Fundamentals of Machine Learning \\
+%Deep Neural Networks in Data Processing \\
+%Natural Language Processing \\
+%Deep Neural Networks in Computer Vision
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     SKILLS
@@ -103,27 +114,41 @@ Deep Neural Networks in Computer Vision
 
 \section{Skills}
 \subsection{Development}
-Python (SOLID, Clean Code, TDD) \textbullet{} FastAPI \textbullet{} Django \textbullet{} Git \textbullet{} PostgreSQL
+Python (SOLID, Clean Code, TDD) \\
+PyTorch • RAG systems • Vision LLMs \\
+Hugging Face • OpenAI API • LangGraph • Pydantic • Pandas • MCP • OpenRouter
 \sectionsep
 
-\subsection{Data \& AI}
-HuggingFace Transformers | Models | Datasets \textbullet{} PyTorch \textbullet{} MCP \textbullet{} Semantic Kernel \textbullet{} LangGraph \textbullet{} RAG \textbullet{}  Vision LLMs \textbullet{} DSPy
+\subsection{ML Platform \& MLOps}
+Dagster • Docker • Label Studio • W\&B \\
+MinIO • Redis • Celery • RabbitMQ • llama.cpp
 \sectionsep
 
-\subsection{Ops \& Deployment}
-Docker \textbullet{} llama.cpp \textbullet{} Dagster \textbullet{} Label Studio \textbullet{} MinIO \textbullet{} Weights\&Biases \textbullet{} OpenRouter \textbullet{} Hydra
+\subsection{Backend \& APIs}
+FastAPI • Django • SQLAlchemy • PostgreSQL • Nginx • Git • Postman
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     PROJECTS
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Projects}
-\runsubsection{\href{https://github.com/mereolog/ml-playground}{ML Playground}}
-\descript{interactive machine learning platform that allows users to experiment with various algorithms through a web interface.}
-
+\runsubsection{\href{https://github.com/artpods56/KUL_OCR}{KUL OCR}}
+\descript{OCR microservice}
+Scalable OCR service with FastAPI, Celery, and Tesseract featuring asynchronous task processing and Docker deployment.
 \sectionsep
-\runsubsection{\href{https://github.com/artpods56/AlphaBetaLogic}{AlphaBetaLogic}}
-\descript{A Python library for parsing and analyzing first-order logic expressions using the PLY (Python Lex-Yacc) library. }
+
+\runsubsection{\href{https://github.com/artpods56/KUL_Notarius}{Notarius}}
+\descript{Information extraction}
+Advanced information extraction system built around Vision LLMs and LayoutLMv3 model architecture.
+Features end-to-end data processing pipeline managed by Dagster and experiment tracking powered by W\&B.
+\sectionsep
+
+\runsubsection{\href{https://github.com/mereolog/ml-playground}{ML Playground}} \\
+\descript{Interactive ML visualization}
+Web platform built with Django and Fastapi for real-time ML algorithm experimentation with interactive parameter tuning and visual feedback.
+\sectionsep
+
+
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -135,12 +160,14 @@ Docker \textbullet{} llama.cpp \textbullet{} Dagster \textbullet{} Label Studio 
 \hfill
 \begin{minipage}[t]{0.55\textwidth} 
 
-\section{Education} 
+\section{Education}
 \subsection{The John Paul II}
 \subsection{Catholic University of Lublin}
+\descript{Master of Computer Science}
+\location{Oct 2025 - Present | In Progress}
 \descript{Bachelor of Artificial Intelligence \\ Thesis: "Evolution of RAG (Retrieval-Augmented Generation) systems"}
-\location{Oct 2022 | June 2025 | Graduated}
-\sectionsep 
+\location{Oct 2022 - June 2025 | Graduated}
+\sectionsep
 
 \subsection{Power Engineering School Complex named after Prof. Kazimierz Drewnowski in Lublin}
 \descript{IT Technician Specialization}
@@ -155,42 +182,46 @@ Docker \textbullet{} llama.cpp \textbullet{} Dagster \textbullet{} Label Studio 
 
 \section{Experience}
 
-\runsubsection{Institute for the Historical Geography of the Church in Poland} \\
-\descript{Solution Architect | MLOps/LLMOps Engineer }
-\location{March 2025 - August 2025 | Lublin}
-\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\runsubsection{The John Paul II Catholic University of Lublin} \\
+\descript{Software Engineer / Technical Mentor}
+\descript{\href{https://github.com/artpods56/KUL_OCR}{KUL ocr - Github Repository}}
+\location{October 2025 - Present | Lublin}
+\vspace{\topsep}
 \begin{tightemize}
-\item Designed and built end-to-end ML pipelines for automated information extraction from historical schematisms using LayoutLMv3 and vision LLMs.
-\item The system achieved over 90\% accuracy in extracting structured data from complex document layouts and is being prepared for production deployment.
-\item Configured production-ready annotation platform with Docker, Label Studio, and MinIO, applying MLOps best practices including model versioning and experiment tracking.
+\item Led student internship program, designing a production-ready service that enabled students to work on a real project in a team environment.
+\item Managed self-hosted GitLab instance and CI/CD runners, implementing development workflows and code quality standards for team collaboration.
 \end{tightemize}
 \sectionsep
 
-\runsubsection{TEDxLublin} \\
+\runsubsection{Institute for the Historical Geography of the Church in Poland} \\
+\descript{ML Engineer (MLOps / LLM Systems)}
+\descript{\href{https://github.com/artpods56/KUL_Notarius}{Notarius Project - Github Repository}}
+\location{March 2025 - August 2025 | Lublin}
+\begin{tightemize}
+\item Designed end-to-end information extraction system (Layout Analysis + Vision LLMs) that achieves >90\% accuracy per separate document.
+\item Collaborated closely with historians to capture domain-specific document structures and constraints, translating expert knowledge into model and pipeline design.
+\item Configured production annotation platform (Docker, Label Studio, MinIO) with MLOps best practices including model versioning and experiment tracking (W\&B).
+\end{tightemize}
+\sectionsep
+
+\runsubsection{\href{https://tedxlublin.org}{TEDxLublin}} \\
 \descript{IT / Web Design and Development }
+\descript{\href{https://www.tedxlublin.org}{www.tedxlublin.org - Website}}
 \location{March 2024 - Present | Lublin}
 
 \begin{tightemize}
-\item Designed and developed the official TEDxLublin website that enabled seamless event management and allowed the organization focus on delivering a great experience for attendees.
-\item Integrated forms for volunteers, speakers, and partners with real-time Airtable synchronization and newsletter subscription.
-\item Integrated Umami for privacy-focused web analytics, ensuring GDPR compliance and data security.
+\item Designed and developed the official TEDxLublin website that enabled seamless event management and allowed the organization to focus on delivering a great experience for attendees.
+%\item Integrated Umami for privacy-focused web analytics, ensuring GDPR compliance and data security.
 \end{tightemize}
 \sectionsep
+%
 
-\runsubsection{The John Paul II Catholic University of Lublin} \\
-\descript{AI R\&D / Software Development }
-\location{September 2022 - February 2023 | Lublin}
-\begin{tightemize}
-\item Conducted research and development on natural language processing techniques and RAG architecture for AI assistant/chatbot development in academic environment.
-\item Analyzed and evaluated the effectiveness of different AI models and approaches.
-\end{tightemize}
-\sectionsep
 
-\end{minipage} 
+\end{minipage}
 
-\vfill % This ensures the clause is pushed to the bottom of the document if there's space
+\vfill
 \begin{center}
-    \scriptsize % Makes the font smaller
+    \scriptsize
     I authorise the processing of personal data contained within my CV, according to GDPR (EU) 2016/679, Article 6.1(a).
 \end{center}
 

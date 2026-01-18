@@ -2,7 +2,7 @@
 % Deedy - One Page Two Column Resume
 % LaTeX Template
 % Version 1.2 (16/9/2014)
-%  
+%
 % Original author:
 % Debarghya Das (http://debarghyadas.com)
 %
@@ -15,7 +15,7 @@
 % default. If you get compilation errors saying a font is missing, find the line
 % on which the font is used and either change it to a font included with your
 % operating system or comment the line out to use the default font.
-% 
+%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \documentclass[]{deedy-resume-openfont}
@@ -32,9 +32,6 @@
 
 \begin{document}
 
-\begin{tikzpicture}[remember picture,overlay,shift={(current page.north west)}]
-\node[anchor=north west,xshift=1.75cm,yshift=-0.25cm]{\includegraphics[width=2.5cm]{apods_img.jpg}};
-\end{tikzpicture}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
 %     LAST UPDATED DATE
@@ -48,11 +45,10 @@
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \namesection{Artur}{Podsiadły}{
-    \href{mailto:artpods56@gmail.com}{\faEnvelopeO\ artpods56@gmail.com}\hspace{0,25cm} 
+    \href{mailto:artpods56@gmail.com}{\faEnvelopeO\ artpods56@gmail.com}\hspace{0,25cm}
     \href{https://www.linkedin.com/in/artpods56/}{\faLinkedin\ linkedin.com/in/artpods56} \\
-    \href{https://github.com/artpods56}{\faGithub\ github.com/artpods56} \hspace{0,25cm} 
-    \faMobile{ +48 530-670-682} 
-    \vspace{0.2cm}
+    \href{https://github.com/artpods56}{\faGithub\ github.com/artpods56} \hspace{0,25cm}
+    \faMobile{ +48 530-670-682}
 }
 
 
@@ -63,39 +59,57 @@
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\begin{minipage}[t]{0.4\textwidth} 
+\begin{minipage}[t]{0.4\textwidth}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%     OBJECTIVE
+%     PROFESSIONAL SUMMARY
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\section{O MNIE}
-{Pasjonuje się szeroko pojętą sztuczną inteligencją, z silnym naciskiem na MLOps/LLMOps i systemy RAG. Specjalizuję się w projektowaniu i wdrażaniu kompleksowych potoków ML, automatyzacji procesów wdrażania oraz integracji rozwiązań LLM w środowiskach produkcyjnych.}
+\section{O mnie}
+\subsection{Machine Learning Engineer}
+Łączę kompetencje badawcze z najlepszymi standardami inżynierii oprogramowania.
+Specjalizuję się w projektowaniu systemów end-to-end oraz automatyzacji procesów MLOps w obszarze pracy z LLM i uczenia głębokiego (Computer Vision, Document AI).
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     BEYOND CODE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Zainteresowania}
+Poza pracą interesuję się thriftingiem i kolekcjonowaniem vintage ubrań.
+Gram też w gry RPG i regularnie uprawiam tenis stołowy.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     LANGUAGES
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Języki}
+Polski (ojczysty) \textbullet{} Angielski (B2+)
+
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     CERTIFICATIONS
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\section{Certyfikaty}
-\textbf{Świadectwo kwalifikacji EE.09} \\
-Programowanie, tworzenie i administrowanie stronami internetowymi i bazami danych. \\
-
-\textbf{Świadectwo kwalifikacji EE.08} \\
-Montaż i eksploatacja systemów komputerowych, urządzeń peryferyjnych i sieci. \\
-
-\textbf{Cisco Networking Academy - IT Essentials} \\
-Certyfikat potwierdzający teoretyczne i praktyczne umiejętności zawodowe. \\
-
+%\section{Certyfikaty}
+%\textbf{Świadectwo kwalifikacji EE.09} \\
+%
+%\textbf{Świadectwo kwalifikacji EE.08} \\
+%
+%\textbf{Cisco Networking Academy - IT Essentials} \\
+%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     COURSEWORK
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\section{Wybrane kursy}
-\subsection{Studia licencjackie}
-Podstawy uczenia maszynowego \\
-Głębokie sieci neuronowe w przetwarzaniu danych
-Przetwarzanie języka naturalnego \\
-Głębokie sieci neuronowe w wizji komputerowej
+%
+%\section{Wybrane kursy}
+%\subsection{Studia licencjackie}
+%Podstawy uczenia maszynowego \\
+%Głębokie sieci neuronowe w przetwarzaniu danych \\
+%Przetwarzanie języka naturalnego \\
+%Głębokie sieci neuronowe w wizji komputerowej
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     SKILLS
@@ -103,29 +117,39 @@ Głębokie sieci neuronowe w wizji komputerowej
 
 \section{Umiejętności}
 \subsection{Development}
-Python (SOLID, Clean Code, TDD) \textbullet{} FastAPI \textbullet{} Django \textbullet{} Git \textbullet{} PostgreSQL
+Python (SOLID, Clean Code, TDD) \\
+PyTorch • RAG systems • Vision LLMs \\
+Hugging Face • OpenAI API • LangGraph • Pydantic • Pandas • MCP • OpenRouter
 \sectionsep
 
-\subsection{Data i AI}
-HuggingFace Transformers | Models | Datasets \textbullet{} PyTorch \textbullet{} MCP \textbullet{} Semantic Kernel \textbullet{} LangGraph \textbullet{} RAG \textbullet{}  Vision LLMs \textbullet{} DSPy
+\subsection{ML Platform \& MLOps}
+Dagster • Docker • Label Studio • W\&B \\
+MinIO • Redis • Celery • RabbitMQ • llama.cpp
 \sectionsep
 
-\subsection{Ops i Usługi}
-Docker \textbullet{} llama.cpp \textbullet{} Dagster \textbullet{} Label Studio \textbullet{} MinIO \textbullet{} Weights\&Biases \textbullet{} OpenRouter \textbullet{} Hydra
+\subsection{Backend \& APIs}
+FastAPI • Django • SQLAlchemy • PostgreSQL • Nginx • Git • Postman
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     PROJECTS
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Projekty}
-\runsubsection{\href{https://github.com/mereolog/ml-playground}{ML Playground}}
-\descript{Interaktywna platforma do uczenia maszynowego}
-\location{Python | Pydantic | Django | FastAPI | Docker}
-
+\runsubsection{\href{https://github.com/artpods56/KUL_OCR}{KUL ocr}}
+\descript{Mikrousługa OCR}
+Skalowalna usługa OCR bazująca na FastAPI oraz Celery.
+Oferuje asynchroniczne przetwarzanie zadań i wdrożenie w Dockerze.
 \sectionsep
-\runsubsection{\href{https://github.com/artpods56/AlphaBetaLogic}{AlphaBetaLogic}}
-\descript{Biblioteka Pythona do parsowania i analizowania wyrażeń logiki pierwszego rzędu}
-\location{Python | PLY (Python Lex-Yacc) | NetworkX}
+
+\runsubsection{\href{https://github.com/artpods56/KUL_Notarius}{Notarius}}
+\descript{Ekstrakcja informacji z dokumentów historycznych}
+Zaawansowany system ekstrakcji informacji zbudowany wokół Vision LLM i architektury modelu LayoutLMv3.
+Obejmuje pipeline przetwarzania danych w Dagster oraz śledzenie eksperymentów w W\&B.
+\sectionsep
+
+\runsubsection{\href{https://github.com/mereolog/ml-playground}{ML Playground}}
+\descript{Interaktywna wizualizacja ML}
+Platforma webowa zbudowana na Django i FastAPI do eksperymentowania z algorytmami uczenia maszynowego w czasie rzeczywistym.
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -133,21 +157,22 @@ Docker \textbullet{} llama.cpp \textbullet{} Dagster \textbullet{} Label Studio 
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\end{minipage} 
+\end{minipage}
 \hfill
-\begin{minipage}[t]{0.55\textwidth} 
+\begin{minipage}[t]{0.55\textwidth}
 
-\section{Edukacja} 
+\section{Edukacja}
 \subsection{Katolicki Uniwersytet Lubelski}
 \subsection{Jana Pawła II}
+\descript{Magister Informatyki}
+\location{Paź 2025 - Obecnie | W trakcie}
 \descript{Licencjat ze Sztucznej Inteligencji \\ Praca dyplomowa: "Ewolucja systemów RAG (Retrieval-Augmented Generation)"}
-\location{Paź 2022 | Cze 2025 | Ukończono}
-\sectionsep 
+\location{Paź 2022 - Cze 2025 | Ukończono}
+\sectionsep
 
 \subsection{Zespół Szkół Energetycznych im. prof. Kazimierza Drewnowskiego w Lublinie}
 \descript{Specjalizacja Technik Informatyk}
 \location{2017 | 2021}
-\sectionsep
 
 
 
@@ -157,42 +182,45 @@ Docker \textbullet{} llama.cpp \textbullet{} Dagster \textbullet{} Label Studio 
 
 \section{Doświadczenie}
 
-\runsubsection{Ośrodek Badań nad Geografią Historyczną Kościoła w Polsce} \\
-\descript{Architekt Rozwiązań | Inżynier MLOps/LLMOps}
-\location{Marzec 2025 - Sierpień 2025 | Lublin}
-\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\runsubsection{Katolicki Uniwersytet Lubelski Jana Pawła II} \\
+\descript{Inżynier oprogramowania / Mentor techniczny}
+\descript{\href{https://github.com/artpods56/KUL_OCR}{KUL ocr - Repozytorium Github}}
+\location{Październik 2025 - Obecnie | Lublin}
+\vspace{\topsep}
 \begin{tightemize}
-\item Zaprojektowałem i zbudowałem kompleksowe potoki ML do automatycznej ekstrakcji informacji z historycznych schematyzmów przy użyciu LayoutLMv3 i wizyjnych LLM.
-\item System osiągnął ponad 90\% dokładności w ekstrakcji danych strukturalnych ze złożonych układów dokumentów i jest przygotowywany do wdrożenia produkcyjnego.
-\item Skonfigurowałem gotową do produkcji platformę do adnotacji z użyciem Dockera, Label Studio i MinIO, stosując najlepsze praktyki MLOps, w tym wersjonowanie modeli i śledzenie eksperymentów.
+\item Prowadziłem program praktyk studenckich, projektując gotową do produkcji usługę, która umożliwiła studentom pracę nad prawdziwym projektem w zespole.
+\item Zarządzałem własną instancją GitLab i runnerami CI/CD, dbając o zachowanie najlepszych praktyk DevOps.
 \end{tightemize}
 \sectionsep
 
-\runsubsection{TEDxLublin} \\
-\descript{IT / Projektowanie i Rozwój Stron Internetowych}
+\runsubsection{Ośrodek Badań nad Geografią Historyczną Kościoła w Polsce} \\
+\descript{Inżynier ML (MLOps / LLM Systems)}
+\descript{\href{https://github.com/artpods56/KUL_Notarius}{Notarius Project - Repozytorium Github}}
+\location{Marzec 2025 - Sierpień 2025 | Lublin}
+\begin{tightemize}
+\item Zaprojektowałem kompleksowy system ekstrakcji informacji (Layout Analysis + Vision LLMs) z dokumentów historycznych, który osiąga >90\% dokładności na poziomie poszczególnych dokumentów.
+\item Ściśle współpracowałem z historykami w celu uchwycenia specyficznych dla domeny struktur dokumentów i ograniczeń, przekładając wiedzę ekspercką na projekt modelu i pipeline'u.
+\item Skonfigurowałem gotową do produkcji platformę adnotacji (Docker, Label Studio, MinIO) wraz z wersjonowaniem modeli i zbiorów treningowych oraz śledzeniem eksperymentów.
+\end{tightemize}
+\sectionsep
+
+\runsubsection{\href{https://tedxlublin.org}{TEDxLublin}} \\
+\descript{IT / Projektowanie i rozwój stron internetowych }
+\descript{\href{https://www.tedxlublin.org}{www.tedxlublin.org - Strona internetowa}}
 \location{Marzec 2024 - Obecnie | Lublin}
 
 \begin{tightemize}
-\item Zaprojektowałem i wdrożyłem oficjalną stronę internetową TEDxLublin która pozwala zarządzać wydarzeniami.
-\item Zautomatyzowałem formularze wolontariuszy, prelegentów i partnerów, a także subskrypcję newslettera.
-\item Zintegrowałem Umami do prywatnej analityki internetowej, zapewniając zgodność z RODO.
+\item Zaprojektowałem i wdrożyłem oficjalną stronę internetową TEDxLublin, która umożliwia płynne zarządzanie wydarzeniami i pozwoliła organizacji skupić się na zapewnieniu uczestnikom jak najlepszych doświadczeń.
+%\item Zintegrowałem Umami do prywatnej analityki internetowej, zapewniając zgodność z RODO i bezpieczeństwo danych.
 \end{tightemize}
 \sectionsep
+%
 
-\runsubsection{Katolicki Uniwersytet Lubelski Jana Pawła II} \\
-\descript{Badania i Rozwój AI / Rozwój Oprogramowania}
-\location{Wrzesień 2022 - Luty 2023 | Lublin}
-\begin{tightemize}
-\item Prowadziłem badania i rozwój w zakresie technik przetwarzania języka naturalnego oraz architektury RAG na potrzeby rozwoju asystenta/chatbota AI w środowisku akademickim.
-\item Analizowałem i oceniałem skuteczność różnych modeli i podejść AI w kontekście zadań QA.
-\end{tightemize}
-\sectionsep
+\end{minipage}
 
-\end{minipage} 
-
-\vfill % This ensures the clause is pushed to the bottom of the document if there's space
+\vfill
 \begin{center}
-    \scriptsize % Makes the font smaller
+    \scriptsize
     Wyrażam zgodę na przetwarzanie moich danych osobowych zawartych w moim CV, zgodnie z RODO (UE) 2016/679, art. 6 ust. 1 lit. a.
 \end{center}
 
